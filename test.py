@@ -4,6 +4,6 @@ from apps.yourapp import Yourapp
 app = Yourapp()
 
 app.on_activate()
-for i in range(100):
+for i in range(5):
     app.update()
 app.on_deactivate()

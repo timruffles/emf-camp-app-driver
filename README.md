@@ -9,3 +9,25 @@ you want in real_driver.py.
 I'm not a python programmer. It worked on python 2.7 and 3 - three
 is the one to use for microppython. Sorry for any issues you encounter,
 PRs accepted!
+
+Here's a demo of the output. The app displays "tick 1" ... "tick $N"
+in orange when run on the TiDAL.
+
+```
+ƒ python3 test.py
+Yourapp defined ok
+on_activate
+run_ticker
+fill BLACK
+text tick 1 10 60 BRAND_ORANGE
+fill BLACK
+text tick 2 10 60 BRAND_ORANGE
+fill BLACK
+text tick 3 10 60 BRAND_ORANGE
+fill BLACK
+text tick 4 10 60 BRAND_ORANGE
+fill BLACK
+text tick 5 10 60 BRAND_ORANGE
+on_activate
+stop_ticker
+```

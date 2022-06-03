@@ -34,6 +34,8 @@ on_activate
 stop_ticker
 ```
 
+![demo](./app.jpg)
+
 ## Setup
 
 Put the apps/yourapp structure onto your TiDAL (ensure

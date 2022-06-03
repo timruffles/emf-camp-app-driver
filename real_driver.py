@@ -1,4 +1,5 @@
-# put this in apps/yourapp/driver.py
+# On your TiDAL, change driver.py to use this implementation
+
 # everything you want to do with the tidal/board APIs, do in here.
 # that way you don't need to import anything that's not going to be
 # present on your machine

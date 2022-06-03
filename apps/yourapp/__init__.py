@@ -1,6 +1,6 @@
 import tidal
 from app import App
-from apps.yourapp import driver
+import driver
 
 # define your app here. When you need to do anything with tidal, import
 class Yourapp(App):

@@ -43,4 +43,11 @@ From the root of this repo, copy the `*driver.py` files
 into the root of your tidal. You'll iterate on `real_driver.py` as you need
 more real TiDAL functionality, and perhaps add more sophisticated
 fake implementations in the `fake_driver.py` that is only used
-on your machine.
+on your machine.this
+
+Do not upload the stub files:
+
+```
+app.py    # stub of the TiDAL App class
+tidal.py  # stub for TiDAL constants it's useful to refer to in your app
+```
